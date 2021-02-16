@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Utest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Utest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Utest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4m0.62s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Search for a Join Today"></a>
+<h3 class="failures">Search for a Join Today</h3>
+<span class="code">
+<pre>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body[1]/ui-view[1]/unauthenticated-container[1]/div[1]/div[1]/div[1]/ui-view[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]&quot;}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3L5QCDV', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\DANNAP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f8eee6b14ce7543d0c38005cf66d4e41
+*** Element info: {Using=xpath, value=//body[1]/ui-view[1]/unauthenticated-container[1]/div[1]/div[1]/div[1]/ui-view[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]}
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
+	at co.com.choucair.utest.stepdefinitions.choucairUtestStepDefinitions.sheHasBeenRegistered(choucairUtestStepDefinitions.java:42)
+	at ✽.She has been registered(src/test/resources/features/choucairUTest.feature:10)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Search for a Join Today</td>
+<td class="failures">4m0.62s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2fdedfa7
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6f6e8881
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3db1e3d5
+feb 16, 2021 5:48:09 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --no-sandbox, --laging=es, ..., goog:chromeOptions: {args: [--no-sandbox, --laging=es, --incognito, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, --always-authorize-plugins], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 36223
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+feb 16, 2021 5:48:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@26721c81
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@412ecbdf
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@45f73532
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@40f47d54
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@168bd728
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@41d72cb
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@116b45cc
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7431b89c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@f02c5e3
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@20af321
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@159c72dd
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7caab7bd
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@79d9ac43
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@19d92312
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4016b31e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@566a4ba2
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@61fa5705
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@184d642a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3fce61ae
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language, Danna clicks on where do we select to next:last step]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@43924930
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language, Danna clicks on where do we select to next:last step, Danna enters 'D@n@P@z2021' into where do we write to password]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7aac1ff5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language, Danna clicks on where do we select to next:last step, Danna enters 'D@n@P@z2021' into where do we write to password, Danna enters 'D@n@P@z2021' into where do we write to confirm password]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@36de3a2
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language, Danna clicks on where do we select to next:last step, Danna enters 'D@n@P@z2021' into where do we write to password, Danna enters 'D@n@P@z2021' into where do we write to confirm password, Danna clicks on where do we select to terms of use]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3ddb636c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language, Danna clicks on where do we select to next:last step, Danna enters 'D@n@P@z2021' into where do we write to password, Danna enters 'D@n@P@z2021' into where do we write to confirm password, Danna clicks on where do we select to terms of use, Danna clicks on where do we write to select privacy y security]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@23c500f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language, Danna clicks on where do we select to next:last step, Danna enters 'D@n@P@z2021' into where do we write to password, Danna enters 'D@n@P@z2021' into where do we write to confirm password, Danna clicks on where do we select to terms of use, Danna clicks on where do we write to select privacy y security, Danna clicks on where do we select to complete setup]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6bab208f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language, Danna clicks on where do we select to next:last step, Danna enters 'D@n@P@z2021' into where do we write to password, Danna enters 'D@n@P@z2021' into where do we write to confirm password, Danna clicks on where do we select to terms of use, Danna clicks on where do we write to select privacy y security, Danna clicks on where do we select to complete setup, Danna waits for the element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language, Danna clicks on where do we select to next:last step, Danna enters 'D@n@P@z2021' into where do we write to password, Danna enters 'D@n@P@z2021' into where do we write to confirm password, Danna clicks on where do we select to terms of use, Danna clicks on where do we write to select privacy y security, Danna clicks on where do we select to complete setup, Danna waits for the element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language, Danna clicks on where do we select to next:last step, Danna enters 'D@n@P@z2021' into where do we write to password, Danna enters 'D@n@P@z2021' into where do we write to confirm password, Danna clicks on where do we select to terms of use, Danna clicks on where do we write to select privacy y security, Danna clicks on where do we select to complete setup, Danna waits for the element]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3e7f091c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7627e12c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language, Danna clicks on where do we select to next:last step, Danna enters 'D@n@P@z2021' into where do we write to password, Danna enters 'D@n@P@z2021' into where do we write to confirm password, Danna clicks on where do we select to terms of use, Danna clicks on where do we write to select privacy y security, Danna clicks on where do we select to complete setup, Danna waits for the element]], Then She has been registered
+| strWelcome |
+| Welcome to the world's largest community of freelance software testers! | [Then answer]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language, Danna clicks on where do we select to next:last step, Danna enters 'D@n@P@z2021' into where do we write to password, Danna enters 'D@n@P@z2021' into where do we write to confirm password, Danna clicks on where do we select to terms of use, Danna clicks on where do we write to select privacy y security, Danna clicks on where do we select to complete setup, Danna waits for the element]], Then She has been registered
+| strWelcome |
+| Welcome to the world's largest community of freelance software testers! | [Then answer]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Search for a Join Today:Given than Danna wants to Join Today [Danna open up [Danna opens the Choucair utest page], Danna join [Danna clicks on button that shows us the form to Join today]], When she fills in the required fields of the form
+| strFirstName | strLastName | strEmail | strCity | strPostalCode | strPassword | strConfirmPassword |
+| Danna | Paz | danitagerald@hotmail.com | Pasto | 520001 | D@n@P@z2021 | D@n@P@z2021 | [Danna register [Danna enters 'Danna' into where do we write to first name, Danna enters 'Paz' into where do we write to last name, Danna enters 'danitagerald@hotmail.com' into where do we write to email, Danna clicks on where do we select to month, Danna clicks on where do we select to day, Danna clicks on where do we select to year, Danna clicks on where do we select to next:location, Danna enters 'Pasto' into where do we write to city, Danna enters '520001' into where do we write to Postal code, Danna clicks on where do we write to Country, Danna clicks on where do we select to next:devices, Danna clicks on where do we select your computer, Danna clicks on where do we select version, Danna clicks on Where do we select language, Danna clicks on where do we select to next:last step, Danna enters 'D@n@P@z2021' into where do we write to password, Danna enters 'D@n@P@z2021' into where do we write to confirm password, Danna clicks on where do we select to terms of use, Danna clicks on where do we write to select privacy y security, Danna clicks on where do we select to complete setup, Danna waits for the element]], Then She has been registered
+| strWelcome |
+| Welcome to the world's largest community of freelance software testers! | [Then answer]]
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Search for a Join Today
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then answer
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body[1]/ui-view[1]/unauthenticated-container[1]/div[1]/div[1]/div[1]/ui-view[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]&quot;}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at 16/02/2021 05:53:45 PM</p>
+</div>
+</div>
+</body>
+</html>

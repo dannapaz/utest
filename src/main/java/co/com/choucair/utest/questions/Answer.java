@@ -20,8 +20,8 @@ public class Answer implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
         boolean result;
-        String welcome = Text.of(ChoucairRegisterPage.WELCOME).viewedBy(actor).asString();
-        if (question.equals(welcome)) {
+        String information = Text.of(ChoucairRegisterPage.INFORMATION).viewedBy(actor).asString();
+        if (question.equals(information)) {
             result = true;
         } else {
             result = false;

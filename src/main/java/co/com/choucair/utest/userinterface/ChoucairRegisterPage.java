@@ -29,10 +29,9 @@ public class ChoucairRegisterPage {
     //Step 4: The last step
     public static final Target PASSWORD= Target.the("where do we write to password").located(By.id("password"));
     public static final Target CONFIRM_PASSWORD= Target.the("where do we write to confirm password").located(By.id("confirmPassword"));
+    public static final Target INFORMATION=Target.the("Extract the name").located(By.xpath("//body[1]/ui-view[1]/main[1]/aside[1]/div[2]/div[1]"));
     public static final Target TERMS_OF_USE=Target.the("where do we select to terms of use").located(By.xpath("//body[1]/ui-view[1]/main[1]/section[1]/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[5]/label[1]/span[1]"));
     public static final Target PRIVACY= Target.the("where do we write to select privacy y security").located(By.xpath("//body[1]/ui-view[1]/main[1]/section[1]/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[6]/label[1]/span[1]"));
     public static final Target COMPLETE_SETUP= Target.the("where do we select to complete setup").located(By.id("laddaBtn"));
-    public static final Target WELCOME=Target.the("Extract the name").located(By.xpath("//body[1]/ui-view[1]/unauthenticated-container[1]/div[1]/div[1]/div[1]/ui-view[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]"));
-
 
 }

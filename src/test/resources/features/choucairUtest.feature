@@ -7,6 +7,6 @@ Feature: Utest
     When she fills in the required fields of the form
       |strFirstName|strLastName|strEmail|strCity|strPostalCode|strPassword|strConfirmPassword|
       |Danna|Paz|danitagerapl@gmail.com|Pasto  |520001      |D@n@P@z2021  |D@n@P@z2021|
-    Then She has been registered
-    |strWelcome|
-    |Welcome to the world's largest community of freelance software testers! |
+    Then She has selected checklist
+    |strInformation|
+    |Welcome to the world's largest community of testers.|

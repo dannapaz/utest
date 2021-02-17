@@ -1,9 +1,6 @@
 package co.com.choucair.utest.modal;
 
-import javax.xml.crypto.Data;
-
 public class ChoucairUtestData {
-
 
     private String strFirstName;
     private String strLastName;
@@ -12,7 +9,7 @@ public class ChoucairUtestData {
     private String strPostalCode;
     private String strPassword;
     private String strConfirmPassword;
-    private String strWelcome;
+    private String strInformation;
 
     public String getStrFirstName() {
         return strFirstName;
@@ -54,7 +51,7 @@ public class ChoucairUtestData {
         this.strPostalCode = strPostalCode;
     }
 
-    public String getStrPassword() {
+    public String getStrPassword(){
         return strPassword;
     }
 
@@ -70,11 +67,10 @@ public class ChoucairUtestData {
         this.strConfirmPassword = strConfirmPassword;
     }
 
-    public String getStrWelcome() {
-        return strWelcome;
-    }
+    public String getStrInformation(){
+        return strInformation; }
 
-    public void setStrWelcome(String strWelcome) {
-        this.strWelcome = strWelcome;
+    public void setStrInformation(String strInformation){
+        this.strInformation = strInformation;
     }
 }

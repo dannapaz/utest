@@ -1,4 +1,0 @@
-co/com/choucair/utest/runners/RunnerTags.java
- co.com.choucair.utest.runners.RunnerTags
-co/com/choucair/utest/stepdefinitions/choucairUtestStepDefinitions.java
- co.com.choucair.utest.stepdefinitions.choucairUtestStepDefinitions

@@ -32,8 +32,8 @@ public class choucairUtestStepDefinitions {
         OnStage.theActorInTheSpotlight().attemptsTo(Register.OnThePage(choucairUtestData.get(0).getStrFirstName(), choucairUtestData.get(0).getStrLastName(), choucairUtestData.get(0).getStrEmail(), choucairUtestData.get(0).getStrCity(),choucairUtestData.get(0).getStrPostalCode(),choucairUtestData.get(0).getStrPassword(),choucairUtestData.get(0).getStrConfirmPassword()));
     }
 
-    @Then("^She has selected checklist$")
-    public void sheHasSelectedChecklist(List<ChoucairUtestData> choucairUtestData) {
+    @Then("^She finds the information called$")
+    public void sheFindsTheInformationCalled(List<ChoucairUtestData> choucairUtestData) {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(choucairUtestData.get(0).getStrInformation())));
     }
 
